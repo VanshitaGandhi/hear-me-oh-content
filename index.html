@@ -9,11 +9,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
-    <a href="#main">Jump to main content</a>
-    <a href="#nav">Jump to nav bar</a>
+
+    <ul class="skip-links">
+    <li class="skip-links"><a href="#main" aria-label="jump-to-main-content"></a>Jump to main content</li>
+    <li class="skip-links"><a href="#nav" aria-label="jump-to-navigation"></a>Jump to navigation</li>
+  </ul>
+
     <header role="banner">
-      <div>
-        <img src="images/logo.svg" alt="logo">
+      <div class="wrap">
+        <img class="logo" src="images/logo.svg" alt="logo">
         <h1>The Mighty Sloth</h1>
       </div>
       <nav role="navigation" id="nav">
@@ -53,7 +57,7 @@
           <a href="https://en.wikipedia.org/wiki/Three-toed_sloth" aria-label="Read more about three-toed sloths">[Read more]</a>
         </div>
 
-        <a href="https://en.wikipedia.org/wiki/Sloth"></a>
+        <p><a href="https://en.wikipedia.org/wiki/Sloth"></a></p>
 
       </section>
     </main>

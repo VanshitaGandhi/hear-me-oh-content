@@ -25,11 +25,42 @@ img {
   width: 100%
 }
 
-.skip-links a {
+.skip-links {
   position: absolute;
   top: -3em;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .skip-links a:focus {
   top: 0;
+}
+
+nav a:focus {
+  outline: 3px solid #000;
+}
+
+a:focus {
+  outline: 3px solid #000;
+}
+
+.nav a:hover,
+.nav a:focus {
+  background-color: #fff;
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.wrap {
+  display: flex;
+}
+
+.logo {
+  width: 80px;
 }
